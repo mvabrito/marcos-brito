@@ -38,12 +38,12 @@ public class ValidatorService {
 
 				System.out.println("XXXXXXXX " + ob);
 
-//				System.out.println("1" + annotation.annotationType().getSimpleName());
-//				System.out.println("2" + annotation.annotationType().getCanonicalName());
-//				System.out.println("3" + annotation.annotationType().getComponentType());
-//				System.out.println("4" + annotation.annotationType().getDeclaringClass());
-//				System.out.println("5" + annotation.annotationType().getTypeName());
-//				System.out.println("6" + annotation.annotationType().getTypeParameters());
+				System.out.println("1" + annotation.annotationType().getSimpleName());
+				System.out.println("2" + annotation.annotationType().getCanonicalName());
+				System.out.println("3" + annotation.annotationType().getComponentType());
+				System.out.println("4" + annotation.annotationType().getDeclaringClass());
+				System.out.println("5" + annotation.annotationType().getTypeName());
+				System.out.println("6" + annotation.annotationType().getTypeParameters());
 
 				if (annotation.annotationType().getSimpleName().equals(NotNull.class.getSimpleName())) {
 					TypeVariable<?>[] a = annotation.annotationType().getTypeParameters();
